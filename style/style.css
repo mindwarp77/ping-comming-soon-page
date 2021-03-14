@@ -1,0 +1,258 @@
+/*## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: Libre Franklin, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .title {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+.container .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  text-align: center;
+  line-height: 1em;
+}
+
+.container .intro h2 {
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: #969696;
+}
+
+@media screen and (max-width: 481px) {
+  .container .intro h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .container .intro h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.container .intro h2 .style {
+  font-weight: 700;
+  color: #000;
+}
+
+.container .intro h4 {
+  font-weight: 300;
+  margin: 35px;
+}
+
+@media screen and (max-width: 342px) {
+  .container .intro h4 {
+    font-size: 0.8rem;
+  }
+}
+
+.container .intro .form-control {
+  width: 100%;
+  position: relative;
+}
+
+.container .intro .form-control input {
+  width: 450px;
+  border: 1px solid #969696;
+  margin-right: 10px;
+  font-weight: 300;
+}
+
+.container .intro .form-control input::-webkit-input-placeholder {
+  color: #969696;
+}
+
+.container .intro .form-control input:-ms-input-placeholder {
+  color: #969696;
+}
+
+.container .intro .form-control input::-ms-input-placeholder {
+  color: #969696;
+}
+
+.container .intro .form-control input::placeholder {
+  color: #969696;
+}
+
+.container .intro .form-control input.error {
+  border-color: #ff5263;
+}
+
+@media screen and (max-width: 768px) {
+  .container .intro .form-control input {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .container .intro .form-control input {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+.container .intro .form-control button {
+  width: 175px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4f7df3;
+  border: none;
+  -webkit-box-shadow: 0 4px 5px #c2d3ff;
+          box-shadow: 0 4px 5px #c2d3ff;
+  cursor: pointer;
+}
+
+.container .intro .form-control button:hover {
+  background-color: rgba(79, 125, 243, 0.849);
+}
+
+@media screen and (max-width: 559px) {
+  .container .intro .form-control button {
+    width: 80%;
+  }
+}
+
+.container .intro .form-control input, .container .intro .form-control button {
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.container .intro .form-control small {
+  position: absolute;
+  bottom: -27px;
+  left: 34%;
+  visibility: visible;
+}
+
+.container .intro .form-control small.error {
+  visibility: visible;
+  color: #ff5263;
+}
+
+.container .illustration {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.container .illustration img {
+  width: 650px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container .illustration img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container .illustration img {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .container .illustration img {
+    width: 225px;
+  }
+}
+
+.container .follow-on {
+  width: 100%;
+  text-align: center;
+  padding: 60px;
+}
+
+@media screen and (max-width: 559px) {
+  .container .follow-on {
+    padding: 40px;
+  }
+}
+
+.container .follow-on a {
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: #4f7df3;
+  border: 1px solid #969696;
+}
+
+.container .follow-on a:hover {
+  background-color: #4f7df3;
+  color: #fff;
+  border-color: #4f7df3;
+}
+
+.container .copyright {
+  font-size: 0.8rem;
+  color: #969696;
+}
+/*# sourceMappingURL=style.css.map */
